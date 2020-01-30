@@ -20,9 +20,9 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: #DDDDDD;
 }
 
-/* Focused elements should have a 2px black border */
 :focus{
   border: 2px solid black;
 }
@@ -47,18 +47,12 @@ p{
   padding-top: 10px;
 }
 
-link{
+a{
   font-size:16px;
-  color:#C12258;
+  color: #C12258;
   text-decoration-line: underline;
   text-decoration-style: wavy; 
 }
-
-input:focus{
-/* don't understand this one */
-}
-
-a{}
 
 table{
   border-collapse: separate; /*this made it work*/
@@ -90,7 +84,7 @@ td{
 
 tr:nth-child(odd) {
   background: #D1D1D1
-}
+} 
 
 tr:hover{
   background-color: #7e0820;
