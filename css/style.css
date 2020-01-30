@@ -23,7 +23,7 @@ body{
 }
 
 /* Focused elements should have a 2px black border */
-textarea:focus{
+:focus{
   border: 2px solid black;
 }
 
