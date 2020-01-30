@@ -87,8 +87,7 @@ tr:nth-child(odd) {
 } 
 
 tr:hover{
-  background-color: #7e0820;
-  opacity: 0.5;
+  background-color: rgb(126,8,32,0.5);
 }
 
 *{}
