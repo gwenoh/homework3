@@ -22,6 +22,11 @@ body{
   background-repeat: no-repeat;
 }
 
+/* Focused elements should have a 2px black border */
+textarea:focus{
+  border: 2px solid black;
+}
+
 main{
   margin-bottom: 100px;
 }
@@ -84,7 +89,8 @@ td{
 }
 
 tr:nth-child(odd) {
-  background: #D1D1D1}
+  background: #D1D1D1
+}
 
 tr:hover{
   background-color: #7e0820;
