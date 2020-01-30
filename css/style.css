@@ -50,14 +50,13 @@ link{
 }
 
 input:focus{
-  border-color: black;
-  border-width: 2px;
+/* don't understand this one */
 }
 
 a{}
 
 table{
-  border-collapse: collapse
+  border-collapse: separate; /*this made it work*/
   border-radius: 15px;
   border: 2px solid black;
   text-align: center;
